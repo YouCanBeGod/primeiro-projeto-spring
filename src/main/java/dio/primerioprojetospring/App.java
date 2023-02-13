@@ -10,6 +10,8 @@ public class App {
         ApplicationContext factory = new AnnotationConfigApplicationContext(AppConfig.class);
 
         Livro livro = factory.getBean(Livro.class);
+        livro.setNome("Harry Potter");
+        livro.setCodigo("D34FD");
         livro.exibir();
 
     }
