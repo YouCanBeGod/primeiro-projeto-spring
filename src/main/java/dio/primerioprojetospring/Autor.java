@@ -1,6 +1,6 @@
 package dio.primerioprojetospring;
 
-public class Autor {
+public class Autor implements AutorLivro {
 
     private String nome;
 
