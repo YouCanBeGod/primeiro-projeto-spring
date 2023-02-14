@@ -1,5 +1,7 @@
 package dio.primerioprojetospring.InjecaoDeDependencia;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Condutor {
 
     public static void main(String[] args) {
@@ -12,6 +14,7 @@ public class Condutor {
 
     }
 
+    @Autowired
     private Veiculo veiculo;
 
     public Condutor(Veiculo obj) {
