@@ -9,10 +9,9 @@ public class Pedido {
         pedido.gravar();
     }
 
-    private EnviarEmail enviar;
+    private EnviarEmail enviar = EnviarEmail.obterDadosEmail();
 
     public void gravar() {
-        this.enviar = new EnviarEmail("teste", "contato@amos.com", "senha");
         this.enviar.retornar("Pedido criado.");
     }
 }

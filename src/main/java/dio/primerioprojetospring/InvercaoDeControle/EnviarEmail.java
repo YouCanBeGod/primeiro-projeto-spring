@@ -6,6 +6,10 @@ public class EnviarEmail {
 
     }
 
+    public static EnviarEmail obterDadosEmail() {
+        return new EnviarEmail("teste", "contato@amos.com", "senha");
+    }
+
     public void retornar(String mensagem) {
         System.out.println("Email enviado.");
     }
