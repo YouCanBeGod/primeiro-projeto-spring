@@ -1,4 +1,4 @@
-package dio.primerioprojetospring;
+package dio.primerioprojetospring.PrimeiroProjeto;
 
 public class Autor implements AutorLivro {
 

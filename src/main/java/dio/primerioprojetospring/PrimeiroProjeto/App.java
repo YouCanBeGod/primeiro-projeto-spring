@@ -1,4 +1,4 @@
-package dio.primerioprojetospring;
+package dio.primerioprojetospring.PrimeiroProjeto;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
